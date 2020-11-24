@@ -1,5 +1,5 @@
 <?php
-$connection = mysqli_connect('localhost', 'homestead', 'secret', 'test_blog');
+$connection = mysqli_connect('localhost', 'root', '', 'test_blog');
 
 if (!$connection) {
     var_dump(mysqli_connect_error());

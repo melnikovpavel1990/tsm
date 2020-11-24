@@ -8,8 +8,8 @@ define('BASE_PATH', __DIR__);
 $fullPath = BASE_PATH.'/template/views/'.$action.'.php';
 require_once BASE_PATH.'/../core/db.php';
 $_SESSION['user'] = [
-    'name'=> 'Игорь',
-    'lastName'=> 'Алексейчук',
+    'name'=> 'Павел',
+    'lastName'=> 'Мельников',
     'role' => 'admin'
 
 ];

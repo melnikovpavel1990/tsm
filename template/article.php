@@ -7,7 +7,7 @@ if (mysqli_num_rows($res) === 1):
 
     $article = mysqli_fetch_assoc($res);
 
-    require_once __DIR__ . '/headers/' . $name . '_header.php';
+    require_once __DIR__.'/headers/'.$name.'_header.php';
 
     ?>
     <article>

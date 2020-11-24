@@ -3,7 +3,7 @@ $sql = "SELECT * FROM pages;";
 $result = mysqli_query($connection, $sql);
 
 $articles = mysqli_fetch_all($result, MYSQLI_ASSOC);
-require_once __DIR__ . '/headers/' . $name . '_header.php';
+require_once __DIR__.'/headers/'.$name.'_header.php';
 ?>
 
 <div class="container">
